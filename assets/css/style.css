@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  background: rgba(236, 234, 236, 0.658);
+}
+
+/* MOBIEL FIST */
+
+@media (min-width: 460px) {
+  /* Tablet */
+}
+
+@media (min-width: 460px) {
+  /* Desktop */
+} 
+
+/* MOBILE LAST */
+
+@media (max-width: 460px) {
+  /* Tablet */
+}
+
+@media (max-width: 460px) {
+  /* Desktop */
+} 
+
+/* header start */
+
+header {
+  /* border: 2px solid #ccc; */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding: 2rem 0;
+}
+
+main {
+  margin-top: 140px !important;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px 20px;
+  /* border: 2px solid black; */
+}
+
+nav li a {
+  text-decoration: none;
+  color: #555;
+}
+
+nav li a.activate {
+  font-weight: 700;
+  color: #4400ff;
+}
+
+header h1 {
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  /* text-transform: uppercase; */
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+/* header end */
+
+/* footer start */
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer p {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+/* footer end */
+
+/* banner home */
+
+section#banner {
+  background-image: url('../img/jane.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 73vh;
+  /* viewport height */
+}
+
+/* banner home end */
+
+/* about start */
+
+main#about {
+  text-align: center;
+  padding: 30px 0;
+}
+
+main#about h2 {
+  font-size: 30px;
+}
+
+main#about img {
+  width: 450px;
+}
+
+main#about p {
+  margin: 30px 0;
+  line-height: 35px;
+}
+
+main#about cite {
+  font-size: 22px;
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* about end */
+/* music start */
+
+main#music {
+  width: 900px;
+  margin: 30px auto;
+  max-width: 100%;
+}
+
+/* music end */
+
+/* contact end */
+
+main#contact {
+  width: 900px;
+  margin: 30px auto;
+  max-width: 100%;
+}
+
+/* home v2 */
+section#concept,
+section#songs {
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+  line-height: 25px;
+}
+
+section#songs img {
+  width: 100%;
+}
+
+.duas-colunas {
+  overflow: hidden;
+}
+
+.duas-colunas>div {
+  width: 50%;
+  float: left;
+}
+
+section#songs li {
+  padding: 20px 0;
+}
+
+section#songs li strong {
+  color: orange;
+}
+
+/* contact2 */
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+.form-group {
+  margin: 0 0 10px;
+}
+
+form textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+}
+
+.mapa {
+  padding-left: 30px;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 400px;
+}
+
+@media(max-width: 768px) {
+  .duas-colunas>div {
+    width: 100%;
+  }
+
+  section#concept,
+  selection#songs {
+    padding: 40px 40px;
+  }
+
+  section#concept p {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  section#songs ol li {
+    font-size: 26px;
+  }
+
+  nav ul li a {
+    font-size: 24px;
+  }
+
+  main#music {
+    padding: 0 40px;
+  }
+
+  main#music iframe {
+    width: 100%;
+  }
+
+  main#music ul li p {
+    font-size: 24px;
+  }
+
+  main#contact {
+    padding: 0 40px;
+  }
+
+  main#contact form input {
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  main#contact form button {
+    font-size: 22px;
+    padding: 10px 35px;
+    margin: 20px 0;
+  }
+
+  main#contact .form-group {
+    margin-bottom: 30px;
+  }
+
+  main#contact .mapa {
+    padding: 0;
+  }
+
+  label {
+    font-size: 20px;
+  }
+}
